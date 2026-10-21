@@ -9,11 +9,11 @@ HDL: SystemVerilog
 Verification: ModelSim simulation
 
 # Supported instructions
-R-type (4 cycles): [add, sub]
-I-type ALU (4 cycles): [addi,subi]
-Load (6 cycles): [lw]
-Store (5 cycles): [sw]
-Branch (5 or 7 cycles): [beq]
+R-type (4 cycles): [add, sub]  
+I-type ALU (4 cycles): [addi,subi]  
+Load (6 cycles): [lw]  
+Store (5 cycles): [sw]  
+Branch (5 or 7 cycles): [beq]  
 
 # Verification
 The design was verified in ModelSim with SystemVerilog testbenches:
