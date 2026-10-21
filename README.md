@@ -1,6 +1,6 @@
 # 32-BIT-RISC-V-PROCESSOR (Course Project, Code not allowed to be published)
 ## Overview
- A multi-cycle processor instead splits each instruction into a sequence of shorter steps (fetch, decode, execute, memory access, write-back) and only spends cycles on the steps an instruction actually needs. A finite-state-machine control unit sequences those steps, which also lets hardware like the ALU and memory interface be reused across cycles instead of duplicated.
+ A multi-cycle processor instead splits each instruction into a sequence of shorter steps (fetch, decode, execute, memory access, write-back) and only spends cycles on the steps an instruction actually needs. A finite-state-machine control unit sequences those steps, which also lets hardware like the ALU and memory interface be reused across cycles instead of duplicated. I am currently taking ECE552 (Comptuer Architecture) which is a graduate course, that investigates pipelined processor architecture and optimizations.
 
 ISA: RISC-V RV32I
 Data width: 32 bits
@@ -30,7 +30,9 @@ Waveform debugging: stepping through the FSM state, PC, and control signals cycl
 # FSM state diagram
 <img width="738" height="627" alt="image" src="https://github.com/user-attachments/assets/bbaf43ea-c3fd-4427-8d65-46e298885074" />
 
-# 
+# RTL VIEWER on Quercus
+<img width="1250" height="422" alt="image" src="https://github.com/user-attachments/assets/ac28af5d-a88d-47f2-a2e1-039794be8f69" />
+
 
 
 
